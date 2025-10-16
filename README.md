@@ -178,6 +178,7 @@ If you find this code useful please you cite this github page!
 }
 
 This work relied on the use of oter open githubs that should also be cited:
+
 Colpoptera specimens from the Hopper Museum taken from iNat:
 
 @misc{iNatPhoto352615551,
