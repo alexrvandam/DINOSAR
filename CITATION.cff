@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "DINOSAR: DINOv3 Species Auto-Recovery (Zero-Shot AI Enabled Morphological Species Delimitation)"
+message: "If you use DINOSAR in your work, please cite this software."
+type: software
+authors:
+  - family-names: Van Dam
+    given-names: Alex R.
+repository-code: "https://github.com/alexrvandam/DINOSAR"
+version: "v76"
+date-released: "2025-10-16"
+license: "Apache Version 2.0"
+
