@@ -159,19 +159,14 @@ demo_inliers → only the RANSAC-verified “demo” matches (needs enough inlie
 bidirectional → symmetric A→B and B→A best matches.
 topk_mean → average of top-k similarities per patch (set --topk).
 
-## Citations
-If you find this code useful please you cite this github page! 
-You must also cite:
-
-
-
-
-
 
 ![Allosaurus](logo/allosaurus_ubahn_naturkund.jpg)
 ![DINOSAR logo](logo/DINOSAR_logo.png)
 
 
+## Cite
+If you find this code useful please you cite this github page! 
+You must also cite:
 
 
 ## License
