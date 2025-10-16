@@ -169,6 +169,6 @@ Distributed under Apache2 licsence.
 
 
 
-![Allosaurus](allosaurus_ubahn_naturkund.jpg)
-![DINOSAR logo](DINOSAR_logo.png)
+![Allosaurus](logo/allosaurus_ubahn_naturkund.jpg)
+![DINOSAR logo](logo/DINOSAR_logo.png)
 
