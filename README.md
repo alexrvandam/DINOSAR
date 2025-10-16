@@ -24,13 +24,18 @@ Built around `DINOV3_patch_match_v_76_edge_suppression.py`. CLI options cited be
 Colpoptera fusca x Colpoptera maculata
 ![TPS dissim hist](tps_dissimilarity_histogram.png)
 ![TPS dissim hist balanced ](tps_dissimilarity_histogram_cov_balanced.png)
-![TPS dissim hist](tps_homology_matches--align-stage-none.png)
+![TPS fusca maculata patch match](tps_homology_matches--align-stage-none.png)
 
 Colpoptera fusca x Colpoptera fusca
-![TPS grid overlay](tps_grid_overlay_fuscax2.png)
-![TPS dissim hist](tps_dissimilarity_histogram_fuscax2.png)
-![TPS dissim hist balanced ](tps_dissimilarity_histogram_cov_balanced_fuscax2.png)
-![TPS dissim hist](tps_homology_matches_fuscax2.png)
+![TPS grid overlay fuscax2](tps_grid_overlay_fuscax2.png)
+![TPS dissim hist fuscax2](tps_dissimilarity_histogram_fuscax2.png)
+![TPS dissim hist balanced fuscax2](tps_dissimilarity_histogram_cov_balanced_fuscax2.png)
+![TPS fuscax2 patch match](tps_homology_matches_fuscax2.png)
+
+Colpoptera DINOv3 Attention maps
+![imgA_attention](imgA_attention_layer11.png)
+![imgB_attention](imgB_attention_layer11.png)
+
 
 ---
 
