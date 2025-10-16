@@ -34,8 +34,8 @@ Colpoptera fusca x Colpoptera fusca
 ![TPS fuscax2 patch match](output/tps_homology_matches_fuscax2.png)
 
 Colpoptera DINOv3 Attention maps
-![imgA_attention](logo/imgA_attention_layer11.png)
-![imgB_attention](logo/imgB_attention_layer11.png)
+![imgA_attention](output/imgA_attention_layer11.png)
+![imgB_attention](output/imgB_attention_layer11.png)
 
 
 ---
