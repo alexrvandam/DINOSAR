@@ -166,7 +166,19 @@ topk_mean → average of top-k similarities per patch (set --topk).
 
 ## Cite
 If you find this code useful please you cite this github page! 
-You must also cite:
+
+@misc{VanDam_DINOSAR_2025,
+  author       = {Alex R. Van Dam},
+  title        = {DINOSAR: DINOv3 Species Auto-Recovery (Zero-Shot AI Enabled Morphological Species Delimitation)},
+  year         = {2025},
+  month        = {oct},
+  version      = {v76},
+  howpublished = {\url{https://github.com/alexrvandam/DINOSAR}},
+  note         = {GitHub repository. Commit: <commit-hash>},
+}
+
+This work relied on the use of oter open githubs that should also be cited:
+
 
 
 ## License
