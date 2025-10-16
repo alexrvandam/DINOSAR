@@ -178,7 +178,120 @@ If you find this code useful please you cite this github page!
 }
 
 This work relied on the use of oter open githubs that should also be cited:
+Colpoptera specimens from the Hopper Museum taken from iNat:
 
+@misc{iNatPhoto352615551,
+  author       = {<Photographer>},
+  title        = {<Species / subject>},
+  howpublished = {\url{https://www.inaturalist.org/photos/352615551}},
+  year         = {<Year>},
+  note         = {Contributing institution/uploader: <Hopper Museum>. License: <CC BY 4.0>. Accessed 2025-10-16},
+  publisher    = {iNaturalist}
+}
+
+Software
+
+@article{simeoni2025dinov3,
+  title   = {DINOv3},
+  author  = {Oriane Sim{\'e}oni and Huy V. Vo and Maximilian Seitzer and Federico Baldassarre and
+             Maxime Oquab and Cijo Jose and Vasil Khalidov and Marc Szafraniec and Seungeun Yi and
+             Micha{\"e}l Ramamonjisoa and Francisco Massa and Daniel Haziza and Luca Wehrstedt and
+             Jianyuan Wang and Timoth{\'e}e Darcet and Th{\'e}o Moutakanni and Leonel Sentana and
+             Claire Roberts and Andrea Vedaldi and Jamie Tolan and John Brandt and Camille Couprie and
+             Julien Mairal and Herv{\'e} J{\'e}gou and Patrick Labatut and Piotr Bojanowski},
+  journal = {arXiv preprint arXiv:2508.10104},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2508.10104}
+}
+
+@misc{facebookresearch_dinov3_software,
+  title        = {DINOv3: Reference PyTorch Implementation},
+  author       = {{Meta AI Research} and contributors},
+  year         = {2025},
+  howpublished = {\url{https://github.com/facebookresearch/dinov3}}
+}
+
+@misc{reme2023torchtps,
+  title        = {torch-tps: Thin Plate Splines in PyTorch},
+  author       = {Rapha{\"e}l Reme},
+  year         = {2023},
+  howpublished = {\url{https://github.com/raphaelreme/torch-tps}}
+}
+
+@article{bookstein1989principal,
+  title   = {Principal Warps: Thin-Plate Splines and the Decomposition of Deformations},
+  author  = {Bookstein, Fred L.},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume  = {11},
+  number  = {6},
+  pages   = {567--585},
+  year    = {1989}
+}
+
+@inproceedings{lin2014coco,
+  title     = {Microsoft COCO: Common Objects in Context},
+  author    = {Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Bourdev, Lubomir and
+               Girshick, Ross and Hays, James and Perona, Pietro and Ramanan, Deva and
+               Zitnick, C. Lawrence and Doll{\'a}r, Piotr},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  pages     = {740--755},
+  year      = {2014},
+  publisher = {Springer},
+  url       = {https://arxiv.org/abs/1405.0312}
+}
+
+@article{fischler1981ransac,
+  title   = {Random Sample Consensus: A Paradigm for Model Fitting with Applications to Image Analysis and Automated Cartography},
+  author  = {Fischler, Martin A. and Bolles, Robert C.},
+  journal = {Communications of the ACM},
+  volume  = {24},
+  number  = {6},
+  pages   = {381--395},
+  year    = {1981},
+  doi     = {10.1145/358669.358692}
+}
+
+@article{lowe2004distinctive,
+  title   = {Distinctive Image Features from Scale-Invariant Keypoints},
+  author  = {Lowe, David G.},
+  journal = {International Journal of Computer Vision},
+  volume  = {60},
+  number  = {2},
+  pages   = {91--110},
+  year    = {2004},
+  url     = {https://link.springer.com/article/10.1023/B:VISI.0000029664.99615.94}
+}
+
+@misc{gatis_rembg,
+  title        = {rembg: Image Background Removal},
+  author       = {Daniel Gatis and contributors},
+  howpublished = {\url{https://github.com/danielgatis/rembg}}
+}
+
+@article{qin2020u2net,
+  title   = {U$^2$-Net: Going Deeper with Nested U-Structure for Salient Object Detection},
+  author  = {Qin, Xuebin and Zhang, Zichen and Huang, Chenyang and Dehghan, Masood and Zaiane, Osmar R. and J{\"a}gersand, Martin},
+  journal = {Pattern Recognition},
+  volume  = {106},
+  pages   = {107404},
+  year    = {2020},
+  url     = {https://arxiv.org/abs/2005.09007}
+}
+
+@inproceedings{dosovitskiy2021vit,
+  title     = {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  author    = {Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and Uszkoreit, Jakob and Houlsby, Neil},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2010.11929}
+}
+
+@misc{wightman2021timm,
+  title        = {PyTorch Image Models},
+  author       = {Ross Wightman and contributors},
+  year         = {2021},
+  howpublished = {\url{https://github.com/huggingface/pytorch-image-models}}
+}
 
 
 ## License
