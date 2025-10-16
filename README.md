@@ -5,7 +5,7 @@ DINOSAR uses self-supervised pre-training for zero-shot learning **DINOv3 ViTs**
 
 ![TPS grid overlay](tps_grid_overlay-align-stage-none.png)
 
-> Built around `DINOV3_patch_match_v_76_edge_suppression.py`. CLI options cited below come straight from the script. :contentReference[oaicite:0]{index=0}
+Built around `DINOV3_patch_match_v_76_edge_suppression.py`. CLI options cited below come straight from the script.
 
 ---
 
