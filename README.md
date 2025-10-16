@@ -40,23 +40,14 @@ Colpoptera DINOv3 Attention maps
 
 ---
 
-## Installation
-
-### 1) Create a conda env (recommended)
-
-```bash
-conda env create -f DINOSARv76_environment.yml
-conda activate dinosar-v76
-```
-
-## Quickstart
+## Installation and Quickstart
 
 ```bash
 git clone https://github.com/alexrvandam/DINOSAR.git
 cd DINOSAR
 
 # (Option A) conda
-conda env create -f environment.yml
+conda env create -f DINOSARv76_environment.yml
 conda activate dinosar-v76
 
 # (Option B) plain pip
@@ -66,6 +57,20 @@ pip install -r requirements.txt
 Download DINOv3 and put it some place safe and copy its path for later
 ```bash
 ~/models/dinov3/dinov3_vits16_pretrain_lvd1689m-08c60483.pth
+```
+And also download a few other CRITICAL models.
+
+TPS (if you require a TPS library)
+```bach
+pip install torch-tps
+# or, editable install:
+git clone https://github.com/raphaelreme/torch-tps.git
+cd torch-tps && pip install -e .
+```
+
+rembg (optional foreground masks)
+```bash
+pip install rembg
 ```
 
 A) Zero-shot species comparison (no keypoints, REMBG foreground)
