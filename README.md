@@ -44,8 +44,8 @@ Colpoptera DINOv3 Attention maps
 ### 1) Create a conda env (recommended)
 
 ```bash
-conda env create -f environment.yml
-conda activate dinosar
+conda env create -f DINOSARv76_environment.yml
+conda activate dinosar-v76
 ```
 
 
