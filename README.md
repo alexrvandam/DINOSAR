@@ -164,7 +164,7 @@ If you find this code useful please you cite this github page!
 You must also cite:
 
 
-## License
+## Liscense
 Distributed under Apache2 licsence.
 
 
