@@ -35,3 +35,10 @@ Built around `DINOV3_patch_match_v_76_edge_suppression.py`. CLI options cited be
 ```bash
 conda env create -f environment.yml
 conda activate dinosar
+```
+
+
+
+![Allosaurus](allosaurus_ubahn_naturkund.jpg)
+![DINOSAR logo](DINOSAR_logo.png)
+
