@@ -1,0 +1,22 @@
+name: dinosar-v76
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  # Option A: let pip install PyTorch (will use CPU wheels unless you choose CUDA extra)
+  - pip:
+      - -r DINOSAR_requirements.txt
+
+  # --- Option B (comment A/pip torch lines above and uncomment this block) ---
+  # Install PyTorch matched to your CUDA directly via conda (recommended on Linux):
+  # - pytorch::pytorch>=2.2
+  # - pytorch::torchvision>=0.17
+  # - nvidia::cuda-toolkit=12.1  # or your CUDA version
+  # - pip
+  # - pip:
+  #     - -r DINOSAR_requirements.txt
+

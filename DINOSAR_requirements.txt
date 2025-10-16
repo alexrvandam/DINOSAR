@@ -1,0 +1,31 @@
+# Core DL stack (install the right CUDA build per your system from https://pytorch.org)
+torch>=2.2
+torchvision>=0.17
+
+# ViT backbone utils
+timm>=0.9.12
+einops>=0.7.0
+
+# Numerics & signal processing
+numpy>=1.24
+scipy>=1.11
+
+# Image I/O & computer vision
+Pillow>=10.0
+opencv-contrib-python>=4.8
+
+# Plotting & CLI UX
+matplotlib>=3.8
+tqdm>=4.66
+pyyaml>=6.0
+
+# Background removal (used as default FG)
+rembg>=2.0.50
+# rembg depends on onnxruntime; install GPU runtime instead if desired:
+onnxruntime>=1.17
+# If you want GPU for rembg, uninstall onnxruntime and install:
+# onnxruntime-gpu>=1.17
+
+# Optional but commonly useful
+scikit-image>=0.22
+
